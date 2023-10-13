@@ -20,9 +20,11 @@
 }
 
 .card-img-top {
-display: flex;
-width: 200px;
+
+width: 100px;
 justify-content: center;
+margin-left: 50px;
+margin-right: 50px;
 
 }
 
@@ -40,4 +42,8 @@ justify-content: center;
 .card-body {
   border: 1px solid lightblue;
   padding: 0px;
+}
+
+.card-text {
+  text-align: justify;
 }
