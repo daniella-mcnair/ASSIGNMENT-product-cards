@@ -20,12 +20,44 @@
 }
 
 .card-img-top {
+width: 300px;
+margin-left: 25%;
+margin-right: 50%;
+}
 
-width: 100px;
-justify-content: center;
-margin-left: 50px;
-margin-right: 50px;
 
+  
+
+.parent {
+  position: relative;
+
+
+}
+
+.image1 {
+  width: 300px;
+  margin-left: 25%;
+  margin-right: 50%;
+  position: absolute;
+  top: 20px
+  left: 20px;}
+
+.image2{
+  position: absolute;
+  top: 100px;
+  left: 75px;
+}
+
+.textfix {
+  position: absolute;
+  top: -100px;
+  left: -100px;x
+}
+
+.specs{
+  font-weight: bold;
+  padding-left: 10px;
+  font-family: "DM Serif Display",Serif;
 }
 
 .row {
@@ -40,10 +72,38 @@ margin-right: 50px;
 }
 
 .card-body {
+  margin-top: 10px;
   border: 1px solid lightblue;
-  padding: 0px;
+  padding: 2px;
+  font-family: "Pacifico";
+  
 }
+
+.card-body2 {
+  margin-top: 10px;
+  padding: 2px;
+  font-family: "Pacifico";
+  
+}
+
+.card-body3 {
+  ;
+  
+}
+
 
 .card-text {
   text-align: justify;
+   
+}
+
+.text-body-secondary {
+ color: yellow;
+ padding: 15px; 
+ margin: 0px;
+
+}
+
+.card-footer {
+  background-color: darkgray;
 }
